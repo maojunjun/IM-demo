@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+
+    <TextView 
+        
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="好友"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="#33B5E5"
+        android:gravity="center"
+        
+        />
+  
+    <ListView 
+        
+        android:id="@+id/contacts_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#33B5E5"
+        android:dividerHeight="1dp"
+        
+        ></ListView>
+
+</LinearLayout>
